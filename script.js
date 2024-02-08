@@ -27,6 +27,7 @@ function flipTile() {
   flippedTiles.push(this);
   if (flippedTiles.length === 2) {
     checkMatch();
+    
   }
 }
 
